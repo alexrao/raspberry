@@ -3,15 +3,16 @@
 # create time: 2015.05.06
 
 ---------------------------
-Feature:
+#Feature:
 raspberry test for driver
 
 ---------------------------
-Environment:
-kernel: raspberry raspberry pi 4.01
+#Environment:
+kernel: raspberry kernel rpi-4.01
+device: raspberry pi 2
 
 ----------------------------------
-2015.05.06
+#2015.05.06
 1. add helloworld driver for test
 
 

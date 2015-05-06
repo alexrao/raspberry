@@ -2,11 +2,11 @@
 # 2015.05.06
 
 ------------------------------------------------
-feature:
+#Feature:
 1. a simple linux driver for test,helloworld
 
 --------------------------------------------------
-Invironment:
+#Invironment:
 1. raspberry linux kernel :rpi-4.0.1
 2. raspberry pi 2
 
