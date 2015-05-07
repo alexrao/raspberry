@@ -1,0 +1,11 @@
+helloworld/.hello.ko.cmd
+helloworld/.hello.mod.o.cmd
+helloworld/.hello.o.cmd
+helloworld/.tmp_versions/
+helloworld/Module.symvers
+helloworld/hello.ko
+helloworld/hello.mod.c
+helloworld/hello.mod.o
+helloworld/hello.o
+helloworld/modules.order
+
