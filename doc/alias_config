@@ -1,3 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = git@github.com:alexrao/raspberry.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
 [alias]
 	last = log -1
 	co = checkout
@@ -5,3 +16,6 @@
 	br = branch
 	st = status
 	lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+	la = "log --color --graph --decorate --pretty=oneline --abbrev-commit -U0"
+	lm = "log --color --graph --decorate --pretty=oneline --abbrev-commit --all"
+	lt = "log --color --graph --decorate"
