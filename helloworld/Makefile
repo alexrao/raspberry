@@ -6,4 +6,4 @@ all:
 	
 .PHONY :clean
 clean:
-	rm -rf *.o *ko
+	rm -rf *.o *ko Module.symvers *.mod.c  modules.order .tmp_versions .*.ko.cmd  .*.o.cmd 
